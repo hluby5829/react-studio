@@ -1,9 +1,19 @@
 /* Add styling for your page here */
 
 .App {
-
+    margin: 5%;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .BakeryItem {
-  
+  max-width: 400px;
+}
+
+.Section {
+    width: 50%;
+}
+
+img {
+    width: 100%;
 }
