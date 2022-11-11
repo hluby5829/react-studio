@@ -5,7 +5,7 @@ import BakeryItem from "./components/BakeryItem";
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 bakeryData.forEach((item) => {
-  item.image = process.env.PUBLIC_URL + item.image;
+  item.image = process.env.PUBLIC_URL + "/" + item.image;
 });
 /* ############################################################## */
 
